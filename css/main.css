@@ -1,3 +1,270 @@
+@charset "UTF-8";
 @import url("https://fonts.googleapis.com/css2?family=Source+Code+Pro:wght@200;300;400;700&display=swap");
+nav {
+  background-color: black;
+  border-top: solid 5px red;
+  border-right: solid 5px cyan;
+  border-bottom: solid 5px greenyellow;
+  border-left: solid 5px yellowgreen;
+  position: sticky;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+nav img {
+  width: 150px;
+}
+nav img ul li a {
+  color: black;
+  text-decoration: underline;
+  font-size: 700;
+  font-family: "Source Code Pro", sans-serif;
+  font-weight: 1em;
+}
+nav img ul li a:hover {
+  color: brown;
+}
+
+ul {
+  list-style: none;
+  display: flex;
+  margin-left: 20px;
+}
+ul li {
+  color: ainsboro;
+  margin-right: 10px;
+}
+ul li a {
+  color: black;
+  text-decoration: underline;
+  font-size: 700;
+  font-family: "Source Code Pro", sans-serif;
+  font-weight: 1em;
+}
+ul li a:hover {
+  color: brown;
+}
+ul li a:hover:visited {
+  color: grey;
+}
+ul li a:hover :active {
+  color: red;
+}
+
+body {
+  font-size: 62.5%;
+}
+
+h1, h2, h3 {
+  color: white;
+  font-family: "Source Code Pro", sans-serif;
+  font-weight: 700;
+  margin-bottom: 20px;
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+h1 {
+  font-size: 2, 4em;
+}
+
+h2 {
+  font-size: 1.5em;
+}
+
+h3 {
+  font-size: 1.5em;
+}
+
+p {
+  color: brown;
+  font-size: 1.3rem;
+  line-height: 1.35rem;
+  padding: 0 20px;
+  font-weight: 300;
+}
+
+label {
+  color: white;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+table {
+  font-weight: 300;
+  font-size: 200%;
+}
+
+.align-items {
+  align-items: center;
+}
+
+.text-green {
+  color: green;
+}
+
+.text-left {
+  text-align: left;
+}
+
+.text-center {
+  text-align: center;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.text-right {
+  text-align: right;
+}
+
+.text-lighlight {
+  background-color: black;
+}
+
+.bg-violet {
+  background-color: black;
+  border-top: solid 5px red;
+  border-right: solid 5px cyan;
+  border-bottom: solid 5px greenyellow;
+  border-left: solid 5px yellowgreen;
+  padding: 20px;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  height: auto;
+  width: auto;
+}
+
+.bg-gris {
+  background-color: grey;
+}
+
+.box-top {
+  padding: 0px;
+  text-align: center;
+  color: grey;
+  background-color: white;
+  font-size: 2, 4em;
+  width: 97.6%;
+}
+
+.bg-pattern {
+  background-color: black;
+}
+
+.table-center {
+  height: 300px;
+  font-family: "Source Code Pro", sans-serif;
+  font-weight: 700;
+  border-top: solid 5px palegreen;
+  border-left: solid 5px palegoldenrod;
+  border-bottom: solid 5px paleturquoise;
+  border-right: solid 5px palevioletred;
+  width: 500px;
+  margin: 0 auto;
+}
+
+.linkMore {
+  color: grey;
+  font-size: 1em;
+  text-decoration: dashed;
+  border-bottom: 3px;
+  border-color: brown;
+  background-color: black;
+}
+
+.d-flex {
+  display: flex;
+}
+
+.contenedor {
+  width: 100%;
+  height: auto;
+}
+
+.d-block {
+  display: block;
+}
+
+.productos {
+  padding: 0 30px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.productos figure {
+  width: 30%;
+  border-radius: 5px;
+  margin-bottom: 20px;
+}
+.productos figure p {
+  font-size: 1rem;
+  line-height: 1.2rem;
+  margin: 20px 0;
+  text-align: left;
+}
+.productos figure figcaption {
+  color: black;
+  text-align: center;
+  font-size: 2.5rem;
+  margin-top: 10px;
+}
+.productos figure button {
+  border: solid;
+  background-color: black;
+  color: white;
+  border-radius: 5px;
+  padding: 10px;
+  margin-bottom: 20px;
+}
+
+.img-vinchi {
+  width: 90vh;
+  object-fit: cover;
+  padding-left: 3%;
+}
+
+.img-promo {
+  object-fit: cover;
+  height: 40%;
+}
+
+.img-mujer {
+  width: 40%;
+  object-fit: cover;
+}
+
+.img-contactate {
+  height: 60vh;
+  object-fit: cover;
+  padding-left: 3%;
+  justify-content: center;
+}
+
+.img {
+  object-fit: cover;
+  width: 100%;
+  align-items: center;
+  /*TAMAÑO CATALOGO*/
+}
+
+.img2 {
+  width: 250px;
+  /*TAMAÑO LOGO VAGO*/
+}
+
+.img3 {
+    width: 50px;
+  /*TAMAÑO IMAGENES IG Y FB */
+}
+
+.img4 {
+  width: 100%;
+}
 
 /*# sourceMappingURL=main.css.map */
